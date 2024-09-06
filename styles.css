@@ -1,0 +1,240 @@
+/* Reset some default styles */
+
+
+/* Style the header */
+header {
+    padding: 20px;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: White;
+    padding: 8px 20px;
+}
+
+.left-flexbox {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center the content */
+    margin-left: 5%; /* Adjust this value to move it closer to the center */
+}
+
+.right-flexbox {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+ .nav-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-menu{
+    color: #0d0d0d;
+}
+
+.nav-menu:hover, .nav-item a:hover {
+    text-decoration: underline;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    padding-top: 19px;
+    color: #000; /* Adjust color as needed */
+}
+/* Hover effect for nav items */
+.nav-item a:hover {
+    background-color: #555;
+}
+
+.image-container{
+    width:1300px;
+    height : 580px;
+    position: relative;
+}
+
+.image-container img{
+    width: 100%;
+    height:100%
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-right: 20px;
+    height:40%;
+    background: blue;
+    color:white;
+    padding-left: 70px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    z-index: 1;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+   width:325px;
+   border-radius: 8px;
+   overflow: hidden;
+   margin: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif; /* Assuming Arial or Helvetica */
+    font-size: 14px; /* Adjust as needed */
+    color: #333; /* Assuming a dark gray color */
+    line-height: 1.5; /* For better readability */
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif; /* Assuming Arial or Helvetica */
+    font-size: 28px; /* Adjust as needed */
+    font-weight: bold; /* Assuming bold for the heading */
+    color: #000; 
+}
+.down-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #f0ebeb;
+    height:300px
+    
+
+}
+
+.card-value{
+    display: flex;
+    flex-wrap: wrap;
+    width:1300px;
+}
+
+.card_value img{
+    width: 1300px;
+    height:100%
+
+}
+
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+    position: relative;
+  }
+
+  .grid__item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .grid__item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top{
+    width: 1180px;
+  }
+
+  .card1
+  {
+    background-color: #1b0d0d;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .card__content {
+    padding: 4rem 4rem;
+  }
+  .card__header {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+  }
+  .card__text {
+    font-family: Arial, Helvetica, sans-serif; /* Assuming Arial or Helvetica */
+    font-size: 14px; /* Adjust as needed */
+    color: #333; /* Assuming a dark gray color */
+    line-height: 1.5; 
+  }
+  .card__btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    
+    background-color: blue;
+    border: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .card__btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+  }
+  .card__btn:hover, .card__btn:active {
+    background-color: #dce4ff;
+  }
+  .card__btn:hover span, .card__btn:active span {
+    margin-left: 1.5rem;
+  }
+
+  .container22{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 400px;
+    background-color: #e7e6e6;
+  }
+
+  .container div{
+    height:370px;
+    width:335px;
+    background: blue;
+    margin:60px
+
+  }
